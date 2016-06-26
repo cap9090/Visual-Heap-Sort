@@ -46,7 +46,6 @@ public class Heap {
         fillUpPreviousHeap();
         int i = getLastNonNullIndex();
         if (i >= heap.length) return;
-        //if(i == heap.length) i--;
         int LIHindex = 0;
         heap[LIHindex] = heap[i];
         heap[i] = null;
